@@ -59,7 +59,14 @@ export GROQ_MODEL='openai/gpt-oss-120b'
 
 openai/gpt-oss-20b is a faster alternative. Skip the whisper, orpheus, prompt-guard and safeguard models, which are for speech or safety, not chat.
 
-
+## ingest.py -->  configure the PDF/ You tube text.  need to rerun every each add/update of PDF, text file
+##python ingest.py
+```bash
+python ingest.py ' youtube argut'
+#run multiple  yoube
+export YOUTUBE_URLS='youtube-1, youtube-2'
+python ingest.py
+'''
 ### Terminal chat
 
 ```bash
